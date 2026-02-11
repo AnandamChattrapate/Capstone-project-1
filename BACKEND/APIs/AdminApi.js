@@ -13,10 +13,12 @@ adminRoute.get('/users/:userId',async(req,res)=>{
     if (!articles){
         return res.status(400).json({message:"No Articles found"})
     }
+    // send response (All articles)
     res.status(200).json({message:"All Articles",payload:articles})
     }catch(err){
         return res.status(400).json({message:err.message})
     }
+    
 
 
 })
