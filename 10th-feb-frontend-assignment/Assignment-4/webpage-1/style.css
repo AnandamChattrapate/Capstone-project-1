@@ -1,0 +1,14 @@
+.flex-Container{
+   display: flex;
+   gap:20px;
+   align-items: flex-start;
+}
+body{
+    background-color: rgb(216, 210, 201);
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+strong{
+    color:rgb(97, 104, 89)
+}

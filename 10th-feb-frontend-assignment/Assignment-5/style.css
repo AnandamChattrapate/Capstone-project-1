@@ -1,0 +1,16 @@
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.img-row {
+    display:flex;  
+
+    gap:15px;            
+}
+
+.img-row img {
+    width:33%;
+    height: 33%;
+    object-fit: cover;
+
+}
